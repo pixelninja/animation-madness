@@ -309,7 +309,7 @@
 			}
 			
 			20% {bottom: 30px; animation-timing-function: ease-in;}
-			25% {bottom: 25px; animation-timing-function: ease-out;}
+			25% {bottom: 25px; left: 50px; animation-timing-function: ease-out;}
 
 			40% {bottom: 90px; animation-timing-function: ease-in;}
 			45% {bottom: 85px; animation-timing-function: ease-out;}
