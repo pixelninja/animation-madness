@@ -128,9 +128,9 @@
 		padding: 50px;
 		width: 860px;
 		
-		-moz-animation: background 3s ease-in-out 0s 3 alternate;
-		-webkit-animation: background 3s ease-in-out 0s 3 alternate;
-		animation: background 3s ease-in-out 0s 3 alternate;
+		-moz-animation: background 2s ease-in-out 0s 3 alternate;
+		-webkit-animation: background 2s ease-in-out 0s 3 alternate;
+		animation: background 2s ease-in-out 0s 3 alternate;
 	}
 	
 	article > h1 {
@@ -140,20 +140,17 @@
 	}
 	
 	@-moz-keyframes background {
-		0% {background: #F6A7BB;} /* pink */
-		50% {background: #F79727;} /* orange */
+		0% {background: #F79727;} /* orange */
 		100% {background: #181617;} /* black */
 	}
 	
-	@-webkit-keyframes link {
-		0% {background: #F6A7BB;} /* pink */
-		50% {background: #F79727;} /* orange */
+	@-webkit-keyframes background {
+		0% {background: #F79727;} /* orange */
 		100% {background: #181617;} /* black */
 	}
 	
-	@keyframes link {
-		0% {background: #F6A7BB;} /* pink */
-		50% {background: #F79727;} /* orange */
+	@keyframes background {
+		0% {background: #F79727;} /* orange */
 		100% {background: #181617;} /* black */
 	}
 
@@ -181,9 +178,9 @@
 		-webkit-border-radius: 50%;
 		border-radius: 50%;
 		
-		-moz-animation: bouncing-ball 1s linear 3s 5;
-		-webkit-animation: bouncing-ball 1s linear 3s 5;
-		animation: bouncing-ball 1s linear 3s 5;
+		-moz-animation: bouncing-ball 1s linear 6s 5;
+		-webkit-animation: bouncing-ball 1s linear 6s 5;
+		animation: bouncing-ball 1s linear 6s 5;
 	}
 		
 		@-moz-keyframes bouncing-ball {
@@ -253,9 +250,9 @@
 		bottom: 0;
 		left: 0;
 		
-		-moz-animation: flying 5s linear 0s 1 alternate forwards;
-		-webkit-animation: flying 5s linear 0s 1 alternate forwards;
-		animation: flying 5s linear 0s 1 alternate forwards;
+		-moz-animation: flying 5s linear 11s 1 alternate forwards;
+		-webkit-animation: flying 5s linear 11s 1 alternate forwards;
+		animation: flying 5s linear 11s 1 alternate forwards;
 	}
 	
 	div > img {
@@ -266,12 +263,12 @@
 		
 		margin: 0 auto;
 		
-		-moz-animation: butterfly 200ms ease-in-out 0s 27 alternate,
-						flitter 1s ease-in-out 5s 1 alternate forwards;
-		-webkit-animation: butterfly 200ms ease-in-out 0s 27 alternate,
-						   flitter 1s ease-in-out 5s 1 alternate forwards;
-		animation: butterfly 200ms ease-in-out 0s 27 alternate,
-				   flitter 1s ease-in-out 5s 1 alternate forwards;
+		-moz-animation: butterfly 200ms ease-in-out 1s infinite alternate,
+						flitter 1s ease-in-out 16s 1 alternate forwards;
+		-webkit-animation: butterfly 200ms ease-in-out 0s infinite alternate,
+						   flitter 1s ease-in-out 16s 1 alternate forwards;
+		animation: butterfly 200ms ease-in-out 0s infinite alternate,
+				   flitter 1s ease-in-out 16s 1 alternate forwards;
 	}
 	
 	div > div {
