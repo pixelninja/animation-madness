@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head charset="utf-8">
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Animation Madness</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="css/common.css" />
+		<style type="text/css">
+
+        #clock {
+        	position: relative;
+        	width: 378px;
+        	height: 378px;
+        	margin: 20px auto 0 auto;
+        	background: url(images/clock-face.png);
+        	list-style: none;
+        	}
+        
+        #sec, #min, #hour {
+        	position: absolute;
+        	width: 378px;
+        	height: 378px;
+        	top: 0px;
+        	left: 0;
+        	}
+        
+        #sec {
+        	background: url(images/second-hand.png);
+        	z-index: 3;
+           	}
+           
+        #min {
+        	background: url(images/minute-hand.png);
+        	z-index: 2;
+           	}
+           
+        #hour {
+        	background: url(images/hour-hand.png);
+        	z-index: 1;
+           	}
+           	
+		</style>
+	</head>
+
+	<body>
+
+		<section>
+			<ul id="clock">
+				<li id="sec"></li>
+				<li id="hour"></li>
+				<li id="min"></li>
+			</ul>
+		</section>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+		<script src="js/clock.js"></script>
+	</body>
+</html>

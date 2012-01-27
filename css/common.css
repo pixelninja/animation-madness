@@ -116,6 +116,12 @@
 	#content {
 		position: relative;
 	}
+	
+
+	#canvas {
+		display: block;
+		margin: 0 auto;
+	}	
 
 /* @end */
 
@@ -410,8 +416,6 @@
 			80% {width: 130px;}
 			
 			100% {width: 100px;}
-		}
-
-		
+		}	
 
 /* @end */
